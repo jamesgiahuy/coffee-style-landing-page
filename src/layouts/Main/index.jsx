@@ -7,10 +7,13 @@ import MoreProduct from "../../components/MoreProduct";
 import Magazine from "../../components/Magazine";
 import Parallax from "../../components/Parallax";
 import LifeStory from "../../components/LifeStory";
+import Subcribe from "../../components/SubcribeUs";
 const Main = () => {
   return (
     <main>
       <Slider />
+      <Subheadline content="Our Coffee Story" />
+
       <Story />
       <Subheadline content="Feature mugs" />
       <FeatureMugs />
@@ -21,6 +24,7 @@ const Main = () => {
       <Parallax />
       <Subheadline content="BEHIND THE MUGS, LIFESTYLE STORIES" />
       <LifeStory />
+      <Subcribe />
     </main>
   );
 };

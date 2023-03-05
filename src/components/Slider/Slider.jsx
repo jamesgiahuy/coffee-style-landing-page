@@ -2,7 +2,7 @@ import React from "react";
 
 const Slider = () => {
   return (
-    <div className="slider bg-[url('../public/image/background-slider.jpg')] w-full h-[530px] bg-cover bg-no-repeat bg-bottom ">
+    <div className="slider bg-[url('../public/image/background-slider.jpg')] w-full h-[530px] bg-cover bg-no-repeat bg-bottom mb-24">
       <div className="w-full h-full bg-opacity-40 flex items-center justify-center bg-gray-900">
         <div className="text-white text-center w-full mx-8">
           <p className="uppercase font-bold text-xs tracking-widest	opacity-80 leading-[18px] ">

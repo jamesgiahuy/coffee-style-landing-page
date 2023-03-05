@@ -23,8 +23,8 @@
   @apply text-xs rounded-full px-1.5 text-center;
 }
 .sub-headline-label {
-  @apply after:absolute after:top-[50%] after:w-8 after:right-[-50px]  after:h-px after:bg-gray-200
-  before:absolute before:top-[50%] before:left-[-50px] before:w-8 before:h-px before:bg-gray-200;
+  @apply after:absolute after:top-[50%]  after:w-8 after:right-[-50px]  after:h-px after:bg-gray-200
+  before:absolute before:top-[50%]  before:left-[-50px] before:w-8 before:h-px before:bg-gray-200;
 }
 
 .hjd-button {

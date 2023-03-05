@@ -3,8 +3,18 @@ import React from "react";
 const Story = () => {
   return (
     <div className="story ">
-      <div className="flex items-center justify-center ">
-        <div className="text-center px-16 md:px-32 lg:px-64 xl:px-80 py-32 ">
+      <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-4 justify-center w-[95%] lg:w-[65%] mx-auto mb-24">
+        <div className="basis-1/2 ">
+          <video
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover min-h-[350px]"
+          >
+            <source src="../videos/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="basis-1/2 text-center  lg:text-left lg:pl-6">
           <p className="text-[28px] font-normal tracking-wide leading-[40px] mb-5 mt-5 ">
             Even the all-powerful Pointing has no control about the blind texts.
           </p>
@@ -18,7 +28,7 @@ const Story = () => {
           </p>
           <div>
             <a
-              href=""
+              href="#"
               className="mt-2 text-coffee-400 relative hjd-story-item "
             >
               Read full Story
